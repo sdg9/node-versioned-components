@@ -1,0 +1,6 @@
+{
+  "name": "@dfs-demo/component-a",
+  "version": "0.3.0",
+  "main": "index.ts",
+  "license": "MIT"
+}
