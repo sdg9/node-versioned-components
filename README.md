@@ -19,9 +19,9 @@ graph TD
 In this way when running the app multiple versions of A can coexist at runtime, for example here is the program output.
 
 ```
-I can pull in the package component-a directly Component-A 0.3.0 (local)
-I can pull in the package component-b with transient remote component-a Component-B 0.1.0 (local) referencing Component-A 3.0.0
-I can pull in the package component-c with transient local component-a Component-C 0.1.0 (local) referencing Component-A 0.3.0 (local)
+App can reference A directly (using Component-A 0.3.0 (local))
+App can reference B who references A (using Component-B 0.1.0 (local) referencing Component-A 3.0.0)
+App can reference C who references A (using Component-C 0.1.0 (local) referencing Component-A 0.3.0 (local))
 ```
 
 ### Local
