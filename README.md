@@ -7,12 +7,14 @@
 
 - The main app and 3 components (A, B, & C) exist.  All 3 components A-C are local yarn workspaces, but component A also has some versions published to npm.  App & C directly reference the local version of A while B references the remotely published version of A. 
  
+```mermaid
 graph TD
     App[App] -->A(Component A local v0.3.0)
     App[App] -->B(Component B local)
     App[App] -->C(Component C local)
     B --> A1(Component A remote v3.0.0)
     C --> A
+```
 
 In this way when running the app multiple versions of A can coexist at runtime, for example here is the program output.
 
