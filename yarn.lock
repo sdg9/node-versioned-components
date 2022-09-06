@@ -9,6 +9,11 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
+"@dfs-demo/component-a@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@dfs-demo/component-a/-/component-a-3.0.0.tgz#76a4003bdd91c8b407fa424f37b67e8cd3f54fe0"
+  integrity sha512-La9ZoB8WSeEI3kG0bbnx65f+yiUFJLEgKZA3Qj9XfmXnKWU8WOYP+zwMKcQ5dAnOrips28nAFbFS2H3sMH8zbg==
+
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz#2203b118c157721addfe69d47b70465463066d78"
